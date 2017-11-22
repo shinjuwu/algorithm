@@ -2,9 +2,9 @@ package DFS
 
 var TestData = map[string][]string{
 	"A": {"B", "C", "D"},
-	"B": {"E", "F"},
-	"C": {"G"},
-	"D": {"F"},
+	"B": {"A", "E", "F"},
+	"C": {"A", "G"},
+	"D": {"A", "F"},
 	"E": {"B"},
 	"F": {"B", "D"},
 	"G": {"C"},
